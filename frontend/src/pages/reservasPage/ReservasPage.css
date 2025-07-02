@@ -1,0 +1,29 @@
+.pageHuesped {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 10rem;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.columnaUsuario {
+  flex: 1;
+  max-width: 30%;
+}
+
+.columnaReservas {
+  flex: 2;
+  max-width: 70%;
+}
+
+@media (max-width: 768px) {
+  .pageHuesped {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .columnaUsuario,
+  .columnaReservas {
+    max-width: 100%;
+  }
+}

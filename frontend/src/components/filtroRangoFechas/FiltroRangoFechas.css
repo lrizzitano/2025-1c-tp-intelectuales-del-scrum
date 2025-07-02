@@ -1,0 +1,12 @@
+.filtroRangoFechas {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .filtroRangoFechas {
+        flex-direction: column;
+    }
+}
